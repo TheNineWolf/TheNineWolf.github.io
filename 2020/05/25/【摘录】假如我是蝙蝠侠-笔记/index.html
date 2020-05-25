@@ -1,0 +1,127 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>【摘录】假如我是蝙蝠侠-笔记 | A Day In Life</title><meta name="description" content="5.19阅完   武器 我们不该忘记美国人的身份同一性是如何塑造出来的，清教徒从欧洲来到这片领土，将此前居住此地的土著屠杀殆尽。 “清教徒”所指为何？所谓“清”者，意即唯有遵从上帝意旨的信徒方有资格存活下来。一如其他殖民历史，“不清的”西班牙天主教徒对南美洲的殖民亦是相当残暴的。只是这些“不清的”天主教徒却在某种程度上接受了印第安土著的神话与生活方式，以及美洲中部与南部的前哥伦比亚文明。今时今日，"><meta name="keywords" content="摘抄"><meta name="author" content="苍九"><meta name="copyright" content="苍九"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.png"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="dns-prefetch" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="crossorigin"/><link rel="dns-prefetch" href="https://fonts.googleapis.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="dns-prefetch" href="//busuanzi.ibruce.info"/><meta name="twitter:card" content="summary"><meta name="twitter:title" content="【摘录】假如我是蝙蝠侠-笔记"><meta name="twitter:description" content="5.19阅完   武器 我们不该忘记美国人的身份同一性是如何塑造出来的，清教徒从欧洲来到这片领土，将此前居住此地的土著屠杀殆尽。 “清教徒”所指为何？所谓“清”者，意即唯有遵从上帝意旨的信徒方有资格存活下来。一如其他殖民历史，“不清的”西班牙天主教徒对南美洲的殖民亦是相当残暴的。只是这些“不清的”天主教徒却在某种程度上接受了印第安土著的神话与生活方式，以及美洲中部与南部的前哥伦比亚文明。今时今日，"><meta name="twitter:image" content="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg"><meta property="og:type" content="article"><meta property="og:title" content="【摘录】假如我是蝙蝠侠-笔记"><meta property="og:url" content="http://yoursite.com/2020/05/25/%E3%80%90%E6%91%98%E5%BD%95%E3%80%91%E5%81%87%E5%A6%82%E6%88%91%E6%98%AF%E8%9D%99%E8%9D%A0%E4%BE%A0-%E7%AC%94%E8%AE%B0/"><meta property="og:site_name" content="A Day In Life"><meta property="og:description" content="5.19阅完   武器 我们不该忘记美国人的身份同一性是如何塑造出来的，清教徒从欧洲来到这片领土，将此前居住此地的土著屠杀殆尽。 “清教徒”所指为何？所谓“清”者，意即唯有遵从上帝意旨的信徒方有资格存活下来。一如其他殖民历史，“不清的”西班牙天主教徒对南美洲的殖民亦是相当残暴的。只是这些“不清的”天主教徒却在某种程度上接受了印第安土著的神话与生活方式，以及美洲中部与南部的前哥伦比亚文明。今时今日，"><meta property="og:image" content="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg"><meta property="article:published_time" content="2020-05-25T01:06:11.000Z"><meta property="article:modified_time" content="2020-05-25T01:14:40.077Z"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script>var autoChangeMode = '1'
+var t = Cookies.get("theme")
+if (autoChangeMode == '1'){
+  var isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
+  var isLightMode = window.matchMedia("(prefers-color-scheme: light)").matches
+  var isNotSpecified = window.matchMedia("(prefers-color-scheme: no-preference)").matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined){
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport){
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour < 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+  }
+  } else if (t == 'light') activateLightMode()
+  else activateDarkMode()
+
+} else if (autoChangeMode == '2'){
+  now = new Date();
+  hour = now.getHours();
+  isNight = hour < 6 || hour >= 18
+  if(t === undefined) isNight? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode() 
+} else {
+  if ( t == 'dark' ) activateDarkMode()
+  else if ( t == 'light') activateLightMode()
+}
+
+function activateDarkMode(){
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+    document.querySelector('meta[name="theme-color"]').setAttribute('content','#000')
+  }
+}
+function activateLightMode(){
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+  document.querySelector('meta[name="theme-color"]').setAttribute('content','#fff')
+  }
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="canonical" href="http://yoursite.com/2020/05/25/%E3%80%90%E6%91%98%E5%BD%95%E3%80%91%E5%81%87%E5%A6%82%E6%88%91%E6%98%AF%E8%9D%99%E8%9D%A0%E4%BE%A0-%E7%AC%94%E8%AE%B0/"><link rel="next" title="Hello World" href="http://yoursite.com/2020/05/24/hello-world/"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"cookieDomain":"https://xxx/","msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  runtime: true,
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: undefined,
+  baiduPush: false,
+  highlightCopy: true,
+  highlightLang: true,
+  highlightShrink: 'false',
+  isFontAwesomeV5: false,
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+  
+}</script><script>var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isSidebar: false  
+  }</script><noscript><style>
+#page-header {
+  opacity: 1
+}
+.justified-gallery img{
+  opacity: 1
+}
+</style></noscript><meta name="generator" content="Hexo 4.2.1"></head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="https://i.loli.net/2020/05/25/HUJk9Khq5YeAnLp.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">2</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">1</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">1</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/%E9%9A%8F%E7%AC%94"><span> 随笔</span></a></div><div class="menus_item"><a class="site-page" href="/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0"><span> 读书笔记</span></a></div><div class="menus_item"><a class="site-page" href="/%E7%AC%AC%E4%B8%80%E4%B8%96%E7%95%8C"><span> 第一世界</span></a></div></div></div></div><div id="body-wrap"><div class="post-bg" id="nav" style="background-image: url(https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg)"><div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/">A Day In Life</a></span><span class="pull_right menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/%E9%9A%8F%E7%AC%94"><span> 随笔</span></a></div><div class="menus_item"><a class="site-page" href="/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0"><span> 读书笔记</span></a></div><div class="menus_item"><a class="site-page" href="/%E7%AC%AC%E4%B8%80%E4%B8%96%E7%95%8C"><span> 第一世界</span></a></div></div><span class="toggle-menu close"><a class="site-page"><i class="fa fa-bars fa-fw" aria-hidden="true"></i></a></span></span></div><div id="post-info"><div id="post-title"><div class="posttitle">【摘录】假如我是蝙蝠侠-笔记</div></div><div id="post-meta"><div class="meta-firstline"><time class="post-meta__date"><span class="post-meta__date-created" title="发表于 2020-05-25 09:06:11"><i class="fa fa-calendar" aria-hidden="true"></i> 发表于 2020-05-25</span><span class="post-meta__separator">|</span><span class="post-meta__date-updated" title="更新于 2020-05-25 09:14:40"><i class="fa fa-history" aria-hidden="true"></i> 更新于 2020-05-25</span></time><span class="post-meta__categories"><span class="post-meta__separator">|</span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">读书笔记</a></span></div><div class="meta-secondline"> </div><div class="meta-thirdline"><span class="post-meta-pv-cv"><i class="fa fa-eye post-meta__icon" aria-hidden="true"> </i><span>阅读量:</span><span id="busuanzi_value_page_pv"></span></span><span class="post-meta-commentcount"></span></div></div></div></div><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container"><p>5.19阅完</p>
+<a id="more"></a>
+
+<p>武器</p>
+<p>我们不该忘记美国人的身份同一性是如何塑造出来的，清教徒从欧洲来到这片领土，将此前居住此地的土著屠杀殆尽。 “清教徒”所指为何？所谓“清”者，意即唯有遵从上帝意旨的信徒方有资格存活下来。一如其他殖民历史，“不清的”西班牙天主教徒对南美洲的殖民亦是相当残暴的。只是这些“不清的”天主教徒却在某种程度上接受了印第安土著的神话与生活方式，以及美洲中部与南部的前哥伦比亚文明。今时今日，印第安文明正在逐步复苏。像埃沃·莫拉莱斯这样土生土长的印第安后裔将会不断地作为领袖出现。 而清教徒屠杀者则是完全不能容忍让任何可感知到的“不清”残留的，在人类历史上最彻底的种族大屠杀中，他们将当地土著与其文化消灭得一干二净。这，就是美国文化的摇篮。</p>
+<p>流通</p>
+<p>在市场中，商品的价值并非取决于其实用性，而是仅关乎它们的可交换性。与此相似地，就语言而言，字词章句的真正价值由其表现力所决定，亦即辞章在实际活动中的语用效率。人们在沟通时首要考虑的是获取信息的效率，而非对真相的掌握程度。在全媒体时代，我们可以尤为强烈地感受到指导人们进行社会交流的方法论不是诠释学，而是语用学：各式各样的信息漫布在无处不在的公共讲演与影像中，人类一道用幻象构筑起了所谓的“世界”，在这样的“世界”里，仿真物扮演着最核心的角色。</p>
+<p>自然选择者的发言</p>
+<p>人类不过是众多生物中的一种，世界并不仅为人类而存在。死亡与杀戮算不得悲剧，这样的事从古至今都在大自然里所有的物种间发生着。</p>
+<p>人道主义与自然</p>
+<p>唐·德里罗在他出版于1985年的小说《白噪音》中如是写道：</p>
+<p>杰克，我认为这世上有两种人，杀人者与死亡者。我们中的大多数是死亡者。我们没有那种气质，那种狂怒或任何成为杀人者应当具备的东西。我们对死亡逆来顺受。我们躺下，然后死去。可是想想看做一个杀人者会是怎样的感觉吧。想想看就理论而言，在正面对抗中杀死对手是何等的振奋人心。他死了，而你活着。杀死他你就能得到生命得分。杀的人越多，你积累的分数就越高。这便解释了那么多大屠杀、战争和处决罪犯的来由。</p>
+<p>YouTube上的杀手</p>
+<p>在刊载于网络杂志《浮游世界》的文章《一射成名》中，迈克尔·瑟拉吉欧写道： 身处Web2.0时代，我们都是传播者，也都是见证者……一个大众传媒聚集的时代将名气变作了后现代社会资本的主要通行货币。然而社会媒体亦为通行货币“名气”的汇率植入了大幅度的波动性，里欧·布劳德对此曾有预言：“当能使人成名的新媒介纷纷出现，媒体所传播的个人形象便不断增加，因之成名的人数亦随之增长。”在电视出现之前，此之所谓对人们来说是朦胧、遥远的电影声名的诱惑；在电视出现后，媒体一夜间对所有人都打开了大门；而当互联网时代的晨光初现（奥维宁对此利用得淋漓尽致），电影电视工作室的高墙终究被推翻，图像与网络虚拟人物形象得以实现其超移动性。然而，使Web2.0时代的“产品内容-用户”这一交互模式成立的技术也使得“名气”的传统价值及其核心吸引力——与众不同，广为人知，持续长久——被贬低、削弱。</p>
+<p>罪行是声名的扩音机与整合器。只有当你做了些真正残忍的事时，你的自恋才能够得到真正长久的满足。</p>
+<p>对于特定的大屠杀犯者来说，其意图便在于打破景观之镜。在他眼中，现实与想象的界限是模糊的、难以辨认的、扭曲不清的。他想要成为景观的一部分，景观因之而成为生活，以及——最终——成为死亡。</p>
+<p>科伦拜恩事件</p>
+<p>意料之中的是，两位年轻男士对电子游戏的迷恋尤为吸引记者、批评家与心理学家的关注。他们中的大部分人都假设，长期接触高度暴力的电子游戏会对像埃里克和迪伦这样的年轻人产生一定的抗敏作用，但这种将注意力集中于电子游戏内容的肤浅观察，却没能将长期身处数字环境带来的认知与心理突变纳入考虑范畴。并非电子游戏的内容，而是仿真本身造成了对痛苦与幸福之肉身经验的抗敏表现。 当然，并不是每个人都会因为玩了电子游戏或参与数字仿真就变成大屠杀作案者。然而，大屠杀也不过是人类心灵产生突变之过程中一个格外引人注目的表现罢了。</p>
+<p>技术语言的不稳定性</p>
+<p>露丝·葛欣在其出版于1957年的《表演说话的机器》一书中描述，未来将有一代由媒体景观塑造而成的人——他们的个性主要由电视节目与广告所培养，此外她还预言在我们的心理语言区域将会出现显著突变：“我们正在培育这样一代人，他们对世界的首要印象来自一种机器——这样的情况在历史上还是第一次发生。”</p>
+<p>在第一种转化的基础上，人们的心理区域发生了第二种转化：年轻人的早期成长岁月建立在与信息机器的持续关系中，而与他人间面对面的肢体接触却越来越少。孩子们愈发减少与其他孩子进行亲身交流的互动，转而受支配于与某种躯体既不具感性能力、亦不具理性能力的实体间的虚拟交流。</p>
+<p>此情此境下，感性能力本身即已堕入危境。感性能力作为一种机能，使人类得以理解那些未被诉诸言语亦无从被简化作词句的意蕴。感性能力（以及领会能力，换言之，物理的、身体中具有的并非通过语言表达工作的理解及沟通能力）就像是使得人们能够对他者进行移情性认知的电影。移情能力（将他人所感受到的欢乐悲愁投射到自己身上的能力）与其说是一种天赋的情感，倒不如说是通过培养教导而习得的一定的心理状态，然则当缺少相应教导时，这种状态便也淡化乃至消失了。</p>
+<p>有足够的证据证明，以上所言之交流沟通过程的突变，使得人类的移情能力与感性能力出现了一定的病态，前者表现为一种孤独症倾向，后者表现为对他者存在之感知的迟钝。</p>
+<p>氪石</p>
+<p>这是一座用氪石筑起的城，没有哪位超人胆敢涉足此地。在这里，拥有金钱即被误认作富有，拥有快乐即被误认作幸福。城里的人过着被打磨得光亮的日子，有关本初存在的粗糙真理已被抛光乃至擦除，他们的灵魂长久以来如孤魂野鬼各自游荡，以至于已然忘记该如此对待彼此；这座城用其虚拟电力系统支撑着男人与男人之间竖起的电网，只怕男人与女人间亦是如此吧？</p>
+<p>去做就对了</p>
+<p>在《精神疾病与诊断手册》中，“肆意伤人”综合征被描述为一种包含了难以自制的愤怒以及重度抑郁的反社会行为。</p>
+<p>“肆意伤人（running amok）”乃是源自马来语的词汇。其在马来西亚原初语境中的含义是，一个本来没有表现出任何狂暴之怒征兆的人拿起了武器，突然间就像发疯了似的残杀或伤害自己身侧的任何人。一个人可能会尝试通过肆意伤人来重塑自己的社会声名，赢得他人的敬畏甚或尊重，他也可能会在感到难堪生活重压时借此来逃避整个世界，而后一种情况的结局通常会是自杀。作为一种与特定文化相关的综合征，其表现形式亦由文化语境以及相关设想所决定。</p>
+<p>我们可以将这一综合征理解为理性安排与实际行为间的某种断裂。饱受折磨的抑郁症患者常为自己在社会竞争中屡战屡败、在具有外界刺激的环境中无法及时调动自身能量并做出反应而羞愧。对于深陷抑郁泥潭中不能自拔的人来说，有时候动用暴力似乎便是他们唯一的出路了——这与思想相区别的行为，这不求明日、不求未来的行为，正是可以由世人见证的存在之标志、活力之象征、力量之体现。此即与有意识规划相断裂的暴力行为：去做就对了。耐克的这一箴言完美地介绍了这个进程：抑郁症，紧张症，精神失常的行为，最后终结于引人瞩目的谋杀性自杀。</p>
+<p>符号资本主义与巴洛克主义伦理学</p>
+<p>系统的整个策略都建立在不稳定价值观的超现实性上。对于金钱与无意识理论来说亦是如此。价值准则以飘忽不定的规则为依据：模范的一代，以及不稳定的系列仿真物。有关可操作性的控制论、基因密码、发生突变的随机顺序、不确定性原则等等。所有这一切取代了决定论式的客观科学，取代了关于历史与意识的辩证性观点。</p>
+<p>得了恐怖症的网络虚拟人物</p>
+<p>信息革命的悖谬在于，尽管人们能够获得更多的信息，可各式各样的误解却依旧存在。</p>
+<p>与想象中的计算机文化的乌托邦相反，互联网带来的是盲信与褊狭的复苏。政治与宗教的小众组织可被视作进入了网络空间的数码部落，试图在此确证自身，消除对其偏执之恐惧与憎恶的怀疑。在这种只有回音的网络封闭空间中，患有恐怖症的幽灵取代了真实的个体，宽容、民主的辩论终归不再可能实现。</p>
+<p>记忆</p>
+<p>大批的民众以死亡之名聚集到一起。他们到那儿一同追悼逝者。队伍，歌曲，讲演，与逝者对话，诵念逝者之名。他们到那儿观看用以火葬的柴堆和熊熊燃烧的轮胎，成千上万面旗帜挥舞以致敬，成千上万身着制服的人垂首吊唁。加入人群是为了抵御死亡。脱离人群则意味着身为个体而冒死亡之险，意味着独自面对死亡。人群因此而聚集，这方是最重要的原因。他们到那儿，以成群体。 唐·德里罗，《白噪音》</p>
+<p>身份与身份证明</p>
+<p>在现代历史的进程中，遗忘导致的极度痛苦迫使人们如溺水之徒般绝望地紧紧抓住记忆的稻草。然而记忆已然褪色，过往已然消散，如此一来，你们不得不为自己创造一系列新的记忆。正如1982年电影《银翼杀手》中瑞秋表现的那样，人们将旧有文本、褪色图像的碎片以及丧失了意义的词句拼接在一起，为自己创造新的记忆。</p>
+<p>记忆不是正确的，记忆是身份的一部分，而身份并不以记忆为基础；恰恰相反，身份创造记忆。</p>
+<p>米兰·昆德拉以未来和过去为讨论对象写下了这段文字： 人们总是嚷嚷着想要创造更好的未来。这不是真的。未来对任何人而言都只是冰冷的虚空罢了。过往生机勃勃，急切地刺激、激怒乃至羞辱我们，诱导着我们将其摧毁，或是重演。人们想要成为未来之主宰的唯一原因，便在于他们想要改变历史。他们为了得到实验室而拼尽全力，在那里可以润饰照片，重写传记与历史。</p>
+<p>与人们一般认为的不同，过去远非不可改变的。过去只存在于我们心中，因之，只要我们让自己远离它，置换我们记忆的视角，它便能获得新的样态。</p>
+</div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">苍九</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://yoursite.com/2020/05/25/%E3%80%90%E6%91%98%E5%BD%95%E3%80%91%E5%81%87%E5%A6%82%E6%88%91%E6%98%AF%E8%9D%99%E8%9D%A0%E4%BE%A0-%E7%AC%94%E8%AE%B0/">http://yoursite.com/2020/05/25/%E3%80%90%E6%91%98%E5%BD%95%E3%80%91%E5%81%87%E5%A6%82%E6%88%91%E6%98%AF%E8%9D%99%E8%9D%A0%E4%BE%A0-%E7%AC%94%E8%AE%B0/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://yoursite.com" target="_blank">A Day In Life</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E6%91%98%E6%8A%84/">摘抄</a></div><div class="post_share"><div class="social-share" data-image="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"/><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js"></script></div></div><div class="post-reward"><a class="reward-button button--primary button--animated"> <i class="fa fa-qrcode"></i> 打赏<div class="reward-main"><ul class="reward-all"><li class="reward-item"><img class="post-qr-code__img" src="/img/wechat.jpg" alt="微信"/><div class="post-qr-code__desc">微信</div></li><li class="reward-item"><img class="post-qr-code__img" src="/img/alipay.jpg" alt="支付寶"/><div class="post-qr-code__desc">支付寶</div></li></ul></div></a></div><nav class="pagination_post" id="pagination"><div class="next-post pull-full"><a href="/2020/05/24/hello-world/"><img class="next_cover" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Hello World</div></div></a></div></nav></article></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2020 By 苍九</div><div class="framework-info"><span>驱动 </span><a href="https://hexo.io" target="_blank" rel="noopener"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 </span><a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener"><span>Butterfly</span></a></div></div></footer></div><section class="rightside" id="rightside"><div id="rightside-config-hide"><i class="fa fa-book" id="readmode" title="阅读模式"></i><i class="fa fa-plus" id="font_plus" title="放大字体"></i><i class="fa fa-minus" id="font_minus" title="缩小字体"></i><a class="translate_chn_to_cht" id="translateLink" href="javascript:translatePage();" title="简繁转换" target="_self">繁</a><i class="darkmode fa fa-moon-o" id="darkmode" title="夜间模式"></i></div><div id="rightside-config-show"><div id="rightside_config" title="设置"><i class="fa fa-cog" aria-hidden="true"></i></div><i class="fa fa-arrow-up" id="go-up" title="回到顶部" aria-hidden="true"></i></div></section><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@3/instantpage.min.js" type="module"></script></body></html>
